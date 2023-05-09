@@ -38,11 +38,11 @@
 #endif
 
 namespace ue2 {
-#if defined(USE_STD)
+//#if defined(USE_STD)
 using std::make_unique;
-#else
-using boost::make_unique;
-#endif
+//#else
+//using boost::make_unique;
+//#endif
 }
 
 #undef USE_STD
